@@ -10,5 +10,6 @@ public class Main {
     JOptionPane.showConfirmDialog(null,"hey there");
     String name = JOptionPane.showInputDialog("what name sya it now bro");
     System.out.println("whats up "+name);
+    
     }
 }
