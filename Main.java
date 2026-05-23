@@ -13,13 +13,12 @@ public class Main {
         
     
     System.out.println("hello world");
-    /*JOptionPane.showConfirmDialog(null,"hey there");
+    JOptionPane.showConfirmDialog(null,"hey there");
     String name = JOptionPane.showInputDialog("what name sya it now bro");
-    System.out.println("whats up "+name);*/
+    JOptionPane.showMessageDialog(null, "yellow or green " + name);
     MidiDevice.Info[] infos = MidiSystem.getMidiDeviceInfo();
     System.out.println(infos);
 
-    int getMaxTransmitters;
-    System.out.println(getMaxTransmitters);
+    
     }
 }
